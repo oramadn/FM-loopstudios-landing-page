@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1.5rem 0 1.5rem;
+  width: 100%;
+  position: relative;
+  z-index: 6;
+
+  .logo {
+    width: 144px;
+    height: 1.5rem;
+  }
+
+  .menu__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    .menu-icon {
+      width: 1.5rem;
+      height: auto;
+      transition: transform 0.3s;
+    }
+  }
+}
