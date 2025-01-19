@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata:wght@400&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata:wght@300&family=Josefin+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,12 @@ body {
   font-family: "Alata", sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  color: #333;
+}
+
+p {
+  color: hsl(0, 0%, 0%);
+  opacity: 50%;
+  line-height: 25px;
 }
 
 h1 {
@@ -27,14 +32,21 @@ h1 {
   font-weight: lighter;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+h3, h4, h5, h6 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .header {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -126,6 +138,20 @@ h2, h3, h4, h5, h6 {
 .immersive-box h1 {
   color: hsl(0, 0%, 100%);
   text-align: left;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 6rem 1.5rem 6rem 1.5rem;
+  text-align: center;
+}
+.about__vr {
+  padding: 3rem 1.5rem 0 1.5rem;
+}
+.about__vr p {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

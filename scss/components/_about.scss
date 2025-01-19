@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 6rem 1.5rem 6rem 1.5rem;
+  text-align: center;
+
+  &__vr {
+    padding: 3rem 1.5rem 0 1.5rem;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
