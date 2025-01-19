@@ -1,8 +1,9 @@
-@import 'abstracts/variables';
+@use 'abstracts/variables';
 
-@import 'base/reset';
-@import 'base/typography';
+@use 'base/reset';
+@use 'base/typography';
 
-@import 'components/header';
-@import 'components/hero';
-@import 'components/menu';
+@use 'components/header';
+@use 'components/hero';
+@use 'components/menu';
+@use 'components/immersive-box';
