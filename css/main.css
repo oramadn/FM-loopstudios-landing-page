@@ -40,7 +40,14 @@ h2 {
   letter-spacing: 0px;
 }
 
-h3, h4, h5, h6 {
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+h4, h5, h6 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   line-height: 1.2;
@@ -152,6 +159,71 @@ h3, h4, h5, h6 {
 }
 .about__vr p {
   margin-top: 1rem;
+}
+
+.creations {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+.creations h2 {
+  font-size: 1.75rem;
+  letter-spacing: 0.1rem;
+}
+.creations__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 3rem 1.5rem;
+}
+.creations__item {
+  height: 120px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.creations__item h3 {
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: left;
+  top: 50%;
+  left: 5%;
+}
+.creations__gradient {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, hsl(0, 0%, 0%), transparent);
+  position: absolute;
+  opacity: 0.6;
+}
+.creations__item--deep-earth {
+  background-image: url("/images/mobile/image-deep-earth.jpg");
+}
+.creations__item--night-arcade {
+  background-image: url("/images/mobile/image-night-arcade.jpg");
+}
+.creations__item--soccer-team {
+  background-image: url("/images/mobile/image-soccer-team.jpg");
+}
+.creations__item--the-grid {
+  background-image: url("/images/mobile/image-grid.jpg");
+}
+.creations__item--from-above {
+  background-image: url("/images/mobile/image-from-above.jpg");
+}
+.creations__item--pocket-borealis {
+  background-image: url("/images/mobile/image-pocket-borealis.jpg");
+}
+.creations__item--the-curiosity {
+  background-image: url("/images/mobile/image-curiosity.jpg");
+}
+.creations__item--fisheye {
+  background-image: url("/images/mobile/image-fisheye.jpg");
 }
 
 /*# sourceMappingURL=main.css.map */
