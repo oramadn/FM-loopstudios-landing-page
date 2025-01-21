@@ -174,8 +174,8 @@ h4, h5, h6 {
 .creations__grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  padding: 3rem 1.5rem;
+  gap: 1.5rem;
+  padding: 3rem 1.5rem 2rem 1.5rem;
 }
 .creations__item {
   height: 120px;
@@ -224,6 +224,25 @@ h4, h5, h6 {
 }
 .creations__item--fisheye {
   background-image: url("/images/mobile/image-fisheye.jpg");
+}
+.creations__button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-family: "Alata", sans-serif;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: hsl(0, 0%, 0%);
+  letter-spacing: 5px;
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 0.8125rem 2rem 0.8125rem 2rem;
+  cursor: pointer;
+  margin-bottom: 6rem;
+}
+.creations__button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 0%);
 }
 
 /*# sourceMappingURL=main.css.map */
