@@ -1,15 +1,57 @@
 @use "../abstracts/variables";
 @use "../base/typography";
 
+@mixin button-styles {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-family: typography.$font-primary;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: variables.$color-black;
+  letter-spacing: 5px;
+  border: 1px solid variables.$color-black;
+  padding: 0.8125rem 2rem;
+  cursor: pointer;
+  margin-bottom: 6rem;
+
+  &:hover {
+    color: variables.$color-white;
+    background-color: variables.$color-black;
+  }
+}
+
 .creations {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 1rem;
-  
-  h2 {
-    font-size: 1.75rem;
-    letter-spacing: 0.1rem;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+
+    @media (max-width: 1024px) {
+      align-self: center;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      letter-spacing: 0.1rem;
+    }
+
+    &__button {
+      @include button-styles;
+      margin-bottom: 1rem;
+      display: none;
+
+      @media (min-width: 1024px) {
+        display: block;
+      }
+    }
   }
   
   &__grid {
@@ -18,13 +60,13 @@
     gap: 1.5rem;
     padding: 3rem 1.5rem 2rem 1.5rem;
 
-    // @media (min-width: 768px) {
-    //   grid-template-columns: repeat(2, 1fr);
-    // }
-
-    // @media (min-width: 1024px) {
-    //   grid-template-columns: repeat(4, 1fr);
-    // }
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 
   &__item {
@@ -87,23 +129,10 @@
   }
 
   &__button {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    font-family: typography.$font-primary;
-    font-size: 0.875rem;
-    line-height: 0.875rem;
-    color: variables.$color-black;
-    letter-spacing: 5px;
-    border: 1px solid variables.$color-black;
-    padding: 0.8125rem 2rem 0.8125rem 2rem;
-    cursor: pointer;
-    margin-bottom: 6rem;
+    @include button-styles;
 
-    &:hover {
-      color: variables.$color-white;
-      background-color: variables.$color-black;
+    @media (min-width: 1024px) {
+      display: none;
     }
   }
 }
