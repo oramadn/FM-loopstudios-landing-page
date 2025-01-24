@@ -6,10 +6,10 @@ menuButton.addEventListener("click", () => {
   menuOverlay.classList.toggle("menu--active");
 
   if (menuOverlay.classList.contains("menu--active")) {
-    menuIcon.src = "images/icon-close.svg";
+    menuIcon.src = "./images/icon-close.svg";
     menuButton.setAttribute("aria-label", "Close menu");
   } else {
-    menuIcon.src = "images/icon-hamburger.svg";
+    menuIcon.src = "./images/icon-hamburger.svg";
     menuButton.setAttribute("aria-label", "Open menu");
   }
 });
