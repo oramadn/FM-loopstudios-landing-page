@@ -132,13 +132,13 @@ h4, h5, h6 {
   background-position: center;
   text-align: center;
   height: 100vh;
-  background-image: url("/images/mobile/image-hero.jpg");
+  background-image: url("../../images/mobile/image-hero.jpg");
   position: relative;
 }
 @media (min-width: 1024px) {
   .hero {
     max-height: 650px;
-    background-image: url("/images/desktop/image-hero.jpg");
+    background-image: url("../../images/desktop/image-hero.jpg");
     align-items: flex-start;
     padding-inline: 10rem;
   }
@@ -371,67 +371,67 @@ h4, h5, h6 {
   z-index: 1;
 }
 .creations__item--deep-earth {
-  background-image: url("/images/mobile/image-deep-earth.jpg");
+  background-image: url("../../images/mobile/image-deep-earth.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--deep-earth {
-    background-image: url("/images/desktop/image-deep-earth.jpg");
+    background-image: url("../../images/desktop/image-deep-earth.jpg");
   }
 }
 .creations__item--night-arcade {
-  background-image: url("/images/mobile/image-night-arcade.jpg");
+  background-image: url("../../images/mobile/image-night-arcade.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--night-arcade {
-    background-image: url("/images/desktop/image-night-arcade.jpg");
+    background-image: url("../../images/desktop/image-night-arcade.jpg");
   }
 }
 .creations__item--soccer-team {
-  background-image: url("/images/mobile/image-soccer-team.jpg");
+  background-image: url("../../images/mobile/image-soccer-team.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--soccer-team {
-    background-image: url("/images/desktop/image-soccer-team.jpg");
+    background-image: url("../../images/desktop/image-soccer-team.jpg");
   }
 }
 .creations__item--the-grid {
-  background-image: url("/images/mobile/image-grid.jpg");
+  background-image: url("../../images/mobile/image-grid.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--the-grid {
-    background-image: url("/images/desktop/image-grid.jpg");
+    background-image: url("../../images/desktop/image-grid.jpg");
   }
 }
 .creations__item--from-above {
-  background-image: url("/images/mobile/image-from-above.jpg");
+  background-image: url("../../images/mobile/image-from-above.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--from-above {
-    background-image: url("/images/desktop/image-from-above.jpg");
+    background-image: url("../../images/desktop/image-from-above.jpg");
   }
 }
 .creations__item--pocket-borealis {
-  background-image: url("/images/mobile/image-pocket-borealis.jpg");
+  background-image: url("../../images/mobile/image-pocket-borealis.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--pocket-borealis {
-    background-image: url("/images/desktop/image-pocket-borealis.jpg");
+    background-image: url("../../images/desktop/image-pocket-borealis.jpg");
   }
 }
 .creations__item--the-curiosity {
-  background-image: url("/images/mobile/image-curiosity.jpg");
+  background-image: url("../../images/mobile/image-curiosity.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--the-curiosity {
-    background-image: url("/images/desktop/image-curiosity.jpg");
+    background-image: url("../../images/desktop/image-curiosity.jpg");
   }
 }
 .creations__item--fisheye {
-  background-image: url("/images/mobile/image-fisheye.jpg");
+  background-image: url("../../images/mobile/image-fisheye.jpg");
 }
 @media (min-width: 1024px) {
   .creations__item--fisheye {
-    background-image: url("/images/desktop/image-fisheye.jpg");
+    background-image: url("../../images/desktop/image-fisheye.jpg");
   }
 }
 .creations__button {
