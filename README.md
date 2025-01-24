@@ -19,8 +19,8 @@ This is a solution to the [loopstudios landing page challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Github](https://github.com/oramadn/loopstudios-landing-page)
-- Live Site URL: [Live Solution](https://oramadn.github.io/loopstudios-landing-page/)
+- Solution URL: [Github](https://github.com/oramadn/FM-loopstudios-landing-page)
+- Live Site URL: [Live Solution](https://oramadn.github.io/FM-loopstudios-landing-page/)
 
 ### Built with
 
